@@ -27,6 +27,7 @@ public class App
 //
 //        session.close();
 //        sessionFactory.close();
+        System.out.println();
 
         EntityManagerFactory entityManagerFactory = HibernateDatabaseConnection.createEntityManagerFactory();
 
